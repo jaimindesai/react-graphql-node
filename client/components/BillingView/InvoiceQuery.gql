@@ -1,0 +1,36 @@
+query billingQuery {
+
+    viewer{
+        _id
+        invoice
+        pe_code
+        due_date
+        account
+        balance
+        activities {
+            credits
+            disputes
+            adjustments
+            cash
+        }
+        address {
+            street1
+            city
+            state
+            zip
+        }
+        billing_details {
+            product
+            pe_code
+            company
+            gross
+            discount
+            promotion
+            tax
+        }
+        company
+        invoice_date
+        purchase_order
+}
+
+}

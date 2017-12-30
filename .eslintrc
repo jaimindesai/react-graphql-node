@@ -1,0 +1,16 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "linebreak-style": ["error", "windows"],
+        "max-len": ["error", 120],
+        "import/no-named-as-default": 0,
+        "import/prefer-default-export": 0
+    },
+    "globals": {
+        "document": true,
+        "describe" : true,
+        "it": true,
+        "window": true,
+        "FileReader": true
+  }
+}

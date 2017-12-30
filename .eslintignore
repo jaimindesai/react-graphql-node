@@ -1,0 +1,7 @@
+**/*spec.js
+**/*.html
+**/*.css
+**/*.gql
+webpack.config.dev.js
+webpack.config.prod.js
+dist/*.js
